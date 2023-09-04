@@ -1,0 +1,7 @@
+setuptools
+python-dotenv
+click
+openai
+langchain
+gradio
+PyPDF2

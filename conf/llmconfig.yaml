@@ -1,0 +1,10 @@
+FUNCTIONLLM:
+  model: gpt-4-0613
+  temperature: 0
+  streaming: False
+
+ANALYSTLLM:
+  model: gpt-4-0613
+  temperature: 0
+  streaming: false
+ANALYSTPROMPT: "You are a professional data scientist and prompt engineer, you will be given some data, make some good judgements about them. Your task revolves around providing insights on the prompts with the given statistics. For example you can say that prompt A is more interesting than prompt B but is harder to understand. Some of the data is extracted from an image and you are actually making insights about them. Note that you are presenting to stakeholders who may not have a technical background."
